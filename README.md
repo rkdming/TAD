@@ -24,9 +24,10 @@ https://youtube.com/playlist?list=PLhz68fYXiMWOvUYPJP4YXXShzpJW_sA5_&si=i7kBLD96
 |구분|URL|
 |---|---|
 |화재 분류 모델 구조|https://www.kaggle.com/code/agnishwarbagchi/fire-detection|
+|폭행 Open Pose|https://github.com/CMU-Perceptual-Computing-Lab/openpose|
 |교통 사고 모델|https://www.kaggle.com/code/fahaddalwai/cnn-accident-detection-91-accuracy|
 |확장 프로그램|https://github.com/drodil/youtube_auto_pause|
-
+---
 ### 데이터셋
 <table>
     <thead>
@@ -72,3 +73,8 @@ https://youtube.com/playlist?list=PLhz68fYXiMWOvUYPJP4YXXShzpJW_sA5_&si=i7kBLD96
         </tr>
     </tbody>
 </table>
+
+---
+### 참고문헌
+Human skeletons and change detection for efficient violence detection in surveillance videos
+https://www.sciencedirect.com/science/article/pii/S1077314223001194
