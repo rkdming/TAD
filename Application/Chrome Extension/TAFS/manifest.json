@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "TAFS",
+    "version": "1.0",
+    "description": "Trauma-stimulating Accident video Filtering Service",
+    "permissions": [
+      "activeTab",
+      "webNavigation",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://*.youtube.com/*",
+      "http://localhost:8080/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "externally_connectable": {
+      "ids": ["*"],
+      "matches": [
+        "https://*.youtube.com/*"
+      ]
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
